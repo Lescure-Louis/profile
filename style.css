@@ -1,0 +1,95 @@
+body {
+  background-image: url("images/lv.jpg");
+  font-family:'Open Sans', sans-serif;
+  color:#2B2B28;
+  font-size:16px;
+  line-height:16px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color:#493022;
+  font-size:30px;
+  line-height: 32px;
+}
+
+h2{
+  color:#B9793F;
+  font-size:20px;
+  line-height: 24px;
+}
+
+a{
+  color: grey;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#E3B04B;
+ }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: #F8F8F8;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 40px 40px;
+  text-align: center;
+}
+ul{
+  padding:0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+  width: 100px;
+  text-align: center;
+}
+
+.card-white ul li a {
+  font-size: 30px;
+  color:#E3B04B;
+}
+
+.card-white ul li a:hover{
+   color: #F1D6AB;
+}
+
+.red-button{
+  padding: 20px;
+  display: inline-block;
+  background-color: #F1D6AB;;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.red-button:hover{
+  background-color: #2B2B28;
+}
